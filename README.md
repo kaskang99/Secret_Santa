@@ -6,10 +6,4 @@ The objective of this project is to create a wesite in GitHub Pages that allows 
 
 Current state of the project:
 
-* uses a pre-defined list
-* allows input of name
 * no working website
-* no HTML
-* no CSS
-* no Python
-* no Python framework
