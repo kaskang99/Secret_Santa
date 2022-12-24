@@ -10,42 +10,21 @@
     <body>
         <div class = "titulo">
             <header>
-                <h1 class = "bem-vindo">Bem Vindo ao Amigo Secreto sem cookies e trackers                </h1>
+                <h1 class = "bem-vindo">Bem Vindo ao Amigo Secreto sem cookies e trackers</h1>
             </header>
         </div>
         <main>
             <p class="first">
-                Antes de começar com os sorteios, é necessário informar o seu nome primeiro!
+                Para de começar com o sorteio, é necessário informar o seu nome primeiro!
             </p>
-            <div class = "form">    
-                <form name="formNome" action="/action_page.php" method = "get">
-                    <p>Nome:<input type = "text" name="nome"></p>
-                </form>
-            </div>
-            <p class="second">
-                Para que o site funcione direito, por favor digite o seu nome do jeito que aparece na lista abaixo:
-            </p>
-            <div class = "lista">
-            <ul>
-                <li>Kang</li>
-                <li>Jenny</li>
-                <li>Cecília</li>
-                <li>Antônio</li>
-                <li>Cristina</li>
-                <li>Davi</li>
-                <li>Solomon</li>
-                <li>Jay</li>
-                <li>Jenny</li>
-                <li>Stella</li>
-                <li>Renan</li>
-                <li>Erick</li>
-                <li>Jung</li>
-                <li>Juliana</li>
-            </ul>
-            </div>
-            <div class = "button">
-                <a class="link-button", href="resultado.html">Enter</a>
-            </div>
+            <div class="wrapper">
+                    <div class="select-wrap" id="peopleWrap">
+                        <select id="people"></select>
+                    </div>
+                    <div><button class="resbutton" id="choose">Quem eu peguei?</button></div>
+                    <div class = "resultado" id="result"></div>
+                </div>
+            <script src="function.js"></script>
         </main>
     </body>
 </html>
